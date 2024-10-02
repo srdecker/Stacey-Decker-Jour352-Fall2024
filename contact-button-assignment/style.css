@@ -1,0 +1,35 @@
+/*
+MY COLOR PALETTE
+Light Green - #A5D0A8
+Turquoise - #8CADA7
+Gold - #B7990D
+Color 4 - #HEX
+Color 5 - #HEX
+*/
+
+body {
+    background-color:#8CADA7;
+    text-align:center;
+}
+
+button {
+    background-color:#110B11;
+    color:#B7990D;
+    font-family: "Poppins", sans-serif;
+    font-weight:300;
+    width:200px;
+    padding:20px;
+    margin-top:50px;
+}
+
+button:hover {
+    background-color:#8CADA7;
+}
+
+h1 {
+    font-family: "Abril Fatface", serif;
+}
+
+h2 {
+    font-family: "Abril Fatface", serif;
+}
