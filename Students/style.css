@@ -1,41 +1,38 @@
 /*
 MY COLOR PALETTE
-Color 1 - #842128
-Color 2 - #2C9BA9
-Color 3 - #255C99
-Color 4 - #FFB8BB
-Color 5 - #9016F6
+Color 1 - #EDAFB8
+Color 2 - #F7E1D7
+Color 3 - #DEDBD2
+Color 4 - #B0C4B1
+Color 5 - #4A5759
 */
 
 body {
-    background-color: #255c99;
-    text-align: center;
+    background-color:#F7E1D7;
+    text-align:center;
 }
 
 button {
-    background-color: #ffb8bb;
-    color: #842128;
-    font-family: "Montserrat", sans-serif;
-    width: 200px;
-    padding: 20px;
-    margin: 50px;
-    font-size: 18px;
+    background-color:#B0C4B1;
+    color:#4A5759;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    width:200px;
+    padding:10px;
+    margin-top:50px;
     border: none;
-    text-transform: uppercase;
     border-radius: 12px;
-    font-weight: bold;
 }
 
+
 button:hover {
-    background-color: #ffffff;
+    background-color:white;
 }
 
 h1 {
-    font-family: "Hind", serif;
-    color: white;
+    font-family: "Abril Fatface", serif;
 }
 
 h2 {
-    font-family: "Montserrat", sans-serif;
-    color: white;
+    font-family: "Abril Fatface", serif;
 }
