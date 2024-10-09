@@ -1,12 +1,39 @@
-h1 {
-    font-family: "Arvo", serif;
+@media {
+    h1 {
+        font-family: "Arvo", serif;
+        font-size: 50px;
+        margin: 10px 50px 0px 0px;
+    }
+
+    img {
+        width: 100%;
+        border: 30px solid black;
+        padding: 10px 50px 0px 0px;
+        margin: 10px 0px 0px 0px;
+    }
+
+    #topper {
+        background-image: url(Stacey_Decker_03.jpg);
+        background-size: cover;
+    }
+
+    #navigation {
+        background-color: #b7990d;
+        text-align: center;
+    }
+
+    .jobtitle {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
 }
 
-img {
-    width:100%;
-}
+@media (min-width: 576px) {
+    h1 {
+        font-size: 120px;
+    }
 
-#topper {
-    background-image:url(Stacey_Decker_03.jpg);
-    background-size: cover;
+    img {
+        margin: 0px 0px 0px 0px;
+    }
 }
