@@ -1,0 +1,12 @@
+h1 {
+    font-family: "Arvo", serif;
+}
+
+img {
+    width:100%;
+}
+
+#topper {
+    background-image:url(Stacey_Decker_03.jpg);
+    background-size: cover;
+}
