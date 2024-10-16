@@ -1,0 +1,44 @@
+@media {
+    h1 {
+        font-family: Georgia, serif;
+        font-size: 50px;
+        margin-bottom: 30px;
+        border: 1px solid black;
+        padding-bottom: 30px;
+    }
+
+    .description {
+        font-size: 13px;
+        color: blue;
+    }
+
+    .caption {
+        color: gray;
+    }
+
+    #headline {
+        color: red;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .smallimage {
+        width: 100px;
+        float: left;
+    }
+
+    #footer {
+        background-color: black;
+        color: white;
+        position:fixed;
+        bottom:0;
+    }
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 100px;
+    }
+}
