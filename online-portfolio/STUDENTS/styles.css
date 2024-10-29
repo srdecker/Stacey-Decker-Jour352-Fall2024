@@ -1,141 +1,52 @@
+@media {
+    h1 {
+        font-family: "Migra", serif;
+        font-size: 72px;
+        padding: 30px, 30px, 30px, 30px;
+    }
+    p {
+        font-size: 18px;
+    }
+
+    button {
+        border-radius: 25px;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 50px;
+    }
+
+    #topper {
+        background-size: cover;
+        background-color: #d2aa9d;
+    }
+
+    #navigation {
+        background-color: #ebeced;
+        text-align: center;
+    }
+
+    h4 {
+        border-bottom: 2px solid block;
+        padding: 10px, 20px, 20px, 10px;
+    }
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 50px;
+    }
+}
 body {
-    background-color: #f6f4f1;TESTING
+    background-color: #d2aa9d;
 }
-
-img {
-    width:75%;
-    border-radius:20%;
-    display:block;
-    margin:auto;
-    padding:30px;
+hr {
+    color: #ebeced;
 }
-
-.col-sm-6 name{
-    text-align: left;
-    padding-left: 30px;
-    display: inline-block;
+header {
+    color: #ebeced;
 }
-
-h1 {
-    font-family: "Alice", serif;
-    color: #423e3a;
-    font-size: 60px;
-    justify-content: center;
-    padding:30px;
-    margin-left: 0;
+h4 {
+    font-family: "Migra", serif;
 }
-
-h2{
-   color: #cb8e7e;
-   font-family: "Times New Roman", Times, serif;
-    font-size: 30px;
-    font-weight:bold;
-    justify-content: center;
-    padding:30px;
-    margin-left: 0;
-}
-
-a.button {
-    background-color: #423e3a;
-    color: white;
-    font-size: 13px;
-    font-family: "Alice", serif;
-    border-radius: 8px;
-    padding: 10px 20px;
-    margin: 20px 0;
-    margin-left: 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-
-#navigation{
-    background-color: #423e3a;
-    text-align:center;
-    color: #cb8e7e;
-    font-weight:bold;
-    font-family: "Alice", serif;
-    font-size:25px;
-}
-
-h4{
-    text-align: center;
-    font-family: "Times New Roman", Times, serif;
-    color: #cb8e7e;
-    font-weight: bold;
-    padding-top:30px;
-    padding-bottom:20px;
-}
-
-h4:before, h4:after {
-    content: "";
-    flex: 1;
-    border-bottom: 2px solid #000;
-    margin: auto;
-}
-
-.jobcol{
-    text-align:center;
-}
-
-.jobcompany{
-    color: #423e3a;
-    font-family: "Alice", serif;
-    font-weight: bold;
-    font-size:15px;
-}
-
-.jobtitle{
-    color: #cb8e7e;
-    font-family: "Times New Roman", Times, serif;
-    font-size:13px;
-    font-weight:bold;
-}
-
-.jobdate{
-    color: #423e3a;
-    font-family: "Alice", serif;
-    font-size:12px;
-    font-weight:bold;
-}
-
-.jobdescription{
-    color: #cb8e7e;
-    font-family: "Times New Roman", Times, serif;
-    font-size:12px;
-    margin-left:80px;
-    margin-right:80px;
-    font-weight:bold;
-}
-
-ul{
-    color: #423e3a;
-    font-family: "Alice", serif;
-    font-weight:bold;
-    font-size:15px;
-}
-
-.educationcol{
-    text-align:center;
-}
-
-.degree{
-    color: #423e3a;
-    font-family: "Alice", serif;
-    font-size:15px;
-    font-weight:bold;
-}
-
-.school{
-   color: #cb8e7e;
-    font-family: "Times New Roman", Times, serif;
-    font-weight: bold;
-    font-size: 13px;
-}
-
-.graddate{
-    color: #423e3a;
-    font-family: "Alice", serif;
-    font-size:12px;
-    font-weight: bold;
-} 
