@@ -1,0 +1,21 @@
+img {
+    width: 100%;
+}
+
+#topper2 {
+    background-image: url(00ThePinkStuff-01-gmbt-superJumbo.jpg);
+    background-size: cover;
+}
+
+#topper3 {
+    background-image: url(00ThePinkStuff-01-gmbt-superJumbo.jpg);
+    background-size: cover;
+    background-position: 10% 10%;
+    height: 100vh;
+}
+
+h1 {
+    margin: 0px 0px 300px 0px;
+    color: blue;
+  font-family: "Dancing Script", cursive;
+}
