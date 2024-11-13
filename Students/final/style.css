@@ -1,0 +1,138 @@
+/* Color palette
+ * Dark blue - #1A467D
+ */
+
+@media {
+    body {
+        background-color: beige;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    video {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #topper {
+        background-image: url(oakImage-1708010573771-superJumbo.jpg);
+        background-size: cover;
+        background-position: 10% 10%;
+        height: 100vh;
+        margin:0px;
+        padding:0px;
+        position:relative;
+    }
+
+    #topper2 {
+        padding: 0px;
+        margin:0px;
+        position: relative;
+    }
+    
+    #videoh1 {
+        background-color: #000000;
+        color: white;
+        margin:0px 0px 0px 0px;
+        padding:0px;
+        position: absolute;
+        top:40px;
+    }
+    
+    
+    #imgh1 {
+        padding: 10px 10px 10px 10px;
+        margin: 10% 50% 0px 0px;
+        background-color: #000000;
+        color: white;
+    }
+    
+    #topcap {
+        font-family:serif;
+       background-color:rgba(0, 0, 0, 0.3);
+        position:absolute;
+        bottom:0;
+        width:100%;
+    }
+
+    .caption {
+        font-size: 12px;
+    }
+
+    .credit {
+        font-weight: bold;
+        color: gray;
+        text-transform: uppercase;
+    }
+
+    .date {
+        text-align: center;
+    }
+
+    #content {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .inlineimage {
+        width: 100%;
+    }
+
+    .pullquote {
+        border-left: 3px solid #1a467d;
+        background-color: beige;
+        text-align: center;
+        padding: 10px 30px 10px 30px;
+        margin: 20px 0px 20px 0px;
+        width: 100%;
+        float: right;
+    }
+
+    .quote {
+        font-size: 50px;
+    }
+
+    .attribution {
+    }
+
+    .quotemark {
+        font-size: 120px;
+        float: left;
+        line-height: 50px;
+        font-family: "Bitter", serif;
+    }
+
+    a {
+        color: #1a467d;
+    }
+    
+    #topperimage {
+        background-image: url(oakImage-1708009624257-superJumbo.webp);
+        background-size:cover;
+        padding:0px;
+        margin:0px;
+    }
+    
+    #imagebig {
+        height:50vh;
+    }
+}
+
+@media (min-width: 576px) {
+    #content {
+        width: 80%;
+    }
+
+    .pullquote {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    #content {
+        width: 60%;
+    }
+}
