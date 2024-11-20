@@ -1,41 +1,95 @@
 /*COLOR PALETTE
  * Pink: #F374AE
- * 
+ * Green: #32533D
  * 
  * */
 
+@media {
+    img {
+        width: 100%;
+    }
 
-img {
-    width: 100%;
+    #topper {
+        background-image: url(00ThePinkStuff-01-gmbt-superJumbo.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 0px;
+        height: 100vh;
+    }
+
+    h1 {
+        margin: 0px 0px 0px 0px;
+        color: #f374ae;
+        font-family: "Miniver", cursive;
+        font-size: 60px;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 30px;
+    }
+    h2 {
+        margin: 0px 0px 400px 0px;
+        color: white;
+        font-family: "Host Grotesk", serif;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 0px 0px 30px 30px;
+    }
+
+    .content {
+        width: 100%;
+        margin: auto;
+    }
+
+    .fullimage {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .caption {
+        padding: 5px 10px 0px 10px;
+    }
+
+    .pullquote {
+        border-left: 10px solid #f374ae;
+        padding: 30px;
+    }
+
+    .quote {
+        font-size: 50px;
+        line-height: 1.1;
+    }
+
+    .attribution {
+        font-size: 12px;
+    }
+    
+    .quotemark {
+        font-size:220px;
+        float:left;
+        line-height:.6;
+        letter-spacing:1px;
+        padding:10px;
+        font-family: "Miniver", cursive;
+    }
+    
+    .imgfullscreen {
+        background-image: url(00ThePinkStuff-09-gmbt-superJumbo.webp);
+        height:400px;
+        background-size:cover;
+        background-position: 30% 10%;
+    }
 }
 
-#topper2 {
-    background-image: url(00ThePinkStuff-01-gmbt-superJumbo.jpg);
-    background-size: cover;
-    background-position:center;
-    padding: 0px;
-    margin: 0px;
-    height: 100vh;
+@media (min-width: 576px) {
+    .content {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 100px;
+    }
 }
 
-#topper3 {
-    background-image: url(00ThePinkStuff-01-gmbt-superJumbo.jpg);
-    background-size: cover;
-    background-position: 10% 10%;
-}
-
-h1 {
-    margin: 0px 0px 0px 0px;
-    color: #F374AE;
-    font-family: "Miniver", cursive;
-    font-size: 100px;
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 30px;
-}
-h2 {
-    margin: 0px 0px 400px 0px;
-    color: white;
-    font-family: "Host Grotesk", serif;
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 0px 0px 30px 30px;
+@media (min-width: 768px) {
+    .content {
+        width: 50%;
+    }
 }

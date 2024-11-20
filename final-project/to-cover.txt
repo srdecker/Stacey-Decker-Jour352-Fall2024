@@ -1,0 +1,11 @@
+- Image taking up entire screen (Remove the default margin on the container)
+- Subheads in the body of the article (Add as a <h3> or <h4> and style accordingly)
+- Whole story? (Yes, copy each paragraph from the original story)
+- Rounded corners (To round the corners of an element, use border-radius CSS property)
+- Should you ever make elements fixed? (Probably not)
+- Text centered, not full screen (Adjust your "content" container, give it a width and margin:auto)
+- Pull quote (Repeat colors, fonts, etc.)
+- Vertical lines (Use the border-left or border-right properties)
+
+- Background image, positioning
+- Embed
