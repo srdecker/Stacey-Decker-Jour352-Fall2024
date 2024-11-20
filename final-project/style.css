@@ -1,3 +1,10 @@
+/*COLOR PALETTE
+ * Pink: #F374AE
+ * 
+ * 
+ * */
+
+
 img {
     width: 100%;
 }
@@ -5,17 +12,30 @@ img {
 #topper2 {
     background-image: url(00ThePinkStuff-01-gmbt-superJumbo.jpg);
     background-size: cover;
+    background-position:center;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
 }
 
 #topper3 {
     background-image: url(00ThePinkStuff-01-gmbt-superJumbo.jpg);
     background-size: cover;
     background-position: 10% 10%;
-    height: 100vh;
 }
 
 h1 {
-    margin: 0px 0px 300px 0px;
-    color: blue;
-  font-family: "Dancing Script", cursive;
+    margin: 0px 0px 0px 0px;
+    color: #F374AE;
+    font-family: "Miniver", cursive;
+    font-size: 100px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+}
+h2 {
+    margin: 0px 0px 400px 0px;
+    color: white;
+    font-family: "Host Grotesk", serif;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 0px 0px 30px 30px;
 }
