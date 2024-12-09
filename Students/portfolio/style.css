@@ -1,11 +1,119 @@
-#topper {
-    background-image:url(https://merrill.umd.edu/sites/default/files/styles/optimized/public/people/Stacey_Decker_03.jpg);
+@media { 
+
+    body {
+            background-color:#144a92;
+
+    }
+
+    
+h1 {
+    font-family: "League Spartan", sans-serif;
+        font-size: 300px;
+        font-weight: bolder;
+        margin: 100px 10px;
+        color:floralwhite;
 }
 
-h2 {
-    margin-bottom:300px;
-}
+h2 { 
+    font-family: "Tenor Sans", sans-serif;
+        font-size: 70px;
+        font-weight:bold;
+        margin: 10px 10px 130px 130px;
+        color:floralwhite
+    
+    
+    }
+
+    .col {
+        font-family: League Spartan;
+        color:floralwhite;
+        
+    }
+    
+    .col-sm-4 {
+       font-family: League Spartan;
+       color:floralwhite;
+    }
+    
+    .ool-sm-8 {
+        font-family:Tenor Sans;
+        color:floralwhite;
+    }
+    .description {
+        font-family:Tenor Sans;
+        color:floralwhite;
+    }
+    
+     .col-sm-6 {
+        font-family:Tenor Sans;
+        color:floralwhite;
+    }
+    
+    
+img {
+        border-radius: 900px;
+        width: 80%;
+        border: 10px solid white;
+        margin: 20px 0px 20px 20px;
+    }
 
 #headshot {
-    width:100%;
+    width:300px;
+    padding:0px;
+    margin:20px 0px 20px 40px;
+    border-radius: 500px;
+}  
+    
+#button {
+        background-color: #e56b6f;
+        border: 300px;
+        border-radius: 300px;
+        padding: 10px 30px 10px 30px;
+        text-transform: uppercase;
+        margin: 10px 120px;
+    }
+
+#button a {
+        color: white;
+        font-size: 40px;
+        text-decoration: none;
+    }
+
+    
+#topper {
+        background-size: cover;
+        background-color: #a42b2b;
+    }
+    #navigation {
+        font-family:Tenor Sans;
+        background-color: #d9d9d9;
+        text-align: center;
+    }
+    
+    .title {
+        font-weight:bold;
+    }
+    
+ #jobtitle {
+        font-weight: bold;
+        text-transform: uppercase;
+
+    }
+  
+    }
+
+#footer {
+    background-color:#d9d9d9;
+    padding: 20px 0px 20px 20px;
+}
+
+@media (min-width: 570px) {
+    h1 {
+        font-size:120px;
+    }
+}
+
+.topnav {
+  background-color:#E56B6F;
+  overflow: hidden;
 }
